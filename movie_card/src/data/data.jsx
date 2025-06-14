@@ -1,5 +1,5 @@
 const movies = [
-  {
+  { 
     id: 1,
     title: "Inception",
     poster: "https://i.pinimg.com/736x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",

@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import moviesData from './data/data';
 import MovieList from './components/MovieList'
-
 import './App.css'
 import CategoryFilter from './components/CategoryFilter';
 
@@ -11,7 +10,7 @@ function App() {
  const handleCtaegoryChange = (category) => {
   setselectedCategory(category);
  };
-
+ 
  const filteredMovies = selectedCategory === 'All'
   ? moviesData : moviesData.filter((movie) => movie.category === selectedCategory);
 
@@ -27,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
